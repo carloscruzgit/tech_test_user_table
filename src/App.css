@@ -1,0 +1,22 @@
+#root{
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.backgroundGrey{
+  background-color: grey;
+}
+
+header{
+  display:flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:50px;
+}
+
+.headerPointer{
+  cursor: pointer;
+}
