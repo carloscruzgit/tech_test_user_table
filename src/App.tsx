@@ -51,12 +51,11 @@ const sortedUsers = useMemo(() => {
 }, [users, sorting])
 
 const filteredUsers = useMemo(() => {
+  console.log('filtered Users')
   return typeof filterUsersByCountry === 'string' && filterUsersByCountry.length >0 ? 
   sortedUsers.filter((user) => user.location.country.toLocaleLowerCase().includes(filterUsersByCountry.toLocaleLowerCase())) 
     : sortedUsers
 }, [sortedUsers, filterUsersByCountry])
-
-
 
 
 useEffect(
