@@ -1,4 +1,4 @@
-#This is a technical test for Carlos Cruz, to see how less knowledgeable is he in regards of React and passing interviews.
+#This is a technical test for Carlos Cruz
 
 The aim of this technical test is to create a similar application to the one provided in th is link: https://midu-react-11.surge.sh/
 To achieve this, you must use the API provided by https://randomuser.me
